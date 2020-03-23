@@ -5,4 +5,11 @@ public class Food {
     private String price;
     private String type;
     private String expiration;
+
+    public Food(String name, String price, String type, String expiration){
+        this.name = name;
+        this.price = price;
+        this.type = type;
+        this.expiration = expiration;
+    }
 }
